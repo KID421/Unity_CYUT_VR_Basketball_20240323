@@ -2,7 +2,7 @@
 
 public class BasketballSystem : MonoBehaviour
 {
-    [SerializeField]
+    [SerializeField, Header("籃球")]
     private GameObject basketball;
 
     // Unity 的按鈕跟程式溝通的方式
