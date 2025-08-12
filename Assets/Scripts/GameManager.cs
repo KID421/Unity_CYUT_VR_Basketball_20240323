@@ -1,15 +1,21 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour
+namespace KID
 {
-    public void Replay()
+    /// <summary>
+    /// 遊戲管理器
+    /// </summary>
+    public class GameManager : MonoBehaviour
     {
-        SceneManager.LoadScene("籃球場");
-    }
+        public void Replay()
+        {
+            SceneManager.LoadScene("籃球場");
+        }
 
-    public void Quit()
-    {
-        Application.Quit();
+        public void Quit()
+        {
+            Application.Quit();
+        }
     }
 }
